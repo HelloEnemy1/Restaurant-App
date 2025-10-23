@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
     TextView myTextView;
     EditText myEditText;
     Button submitButton;
-    TextView Menu;
+    TextView Menuu;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
 
-        Menu = (TextView) findViewById(R.id.greeting1t);
+        Menuu = (TextView) findViewById(R.id.greeting1t);
         myTextView = (TextView) findViewById(R.id.greeting);
         myEditText = (EditText) findViewById((R.id.typeName));
         submitButton = (Button) findViewById(R.id.SubmitButton);
